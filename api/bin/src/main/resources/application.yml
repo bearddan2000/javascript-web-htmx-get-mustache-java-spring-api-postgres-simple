@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://db/animal
+    driver-class-name: org.postgresql.Driver
+    username: maria
+    password: pass
